@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CarouselPanelComponent } from './home/carousel-panel/carousel-panel.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselPanelComponent
+    CarouselPanelComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
