@@ -5,12 +5,26 @@
   }
 
   .carousel-item {
-    height: 400px;
+    height: 250px;
     overflow: hidden;
     width: 100%;
     }
     .carousel-item img {
     width: 100%;
+    }
+
+    @media only screen and (min-width: 600px) {
+      /* For mobile phones: */
+      [class*="carousel-item"] {
+        height: 350px;
+      }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      /* For mobile phones: */
+      [class*="carousel-item"] {
+        height: 450px;
+      }
     }
 
   
