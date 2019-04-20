@@ -24,10 +24,13 @@
   }
 
   .big{
-      background-image: url('../../../assets/Picture1.png');
-      background-repeat:no-repeat;
-      background-size:contain;
-      background-position:center;
+      background-image: url('../../../assets/DSCN1239.jpg');
+      background-repeat: no-repeat;
+      background-size: 357px;
+      background-position: 100%;
+      
+    background-position-x: 47%;
+    background-position-y: 35%;
   }
 
   .screen1-inner {
