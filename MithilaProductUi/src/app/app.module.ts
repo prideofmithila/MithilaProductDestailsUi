@@ -9,11 +9,12 @@ import { AboutComponent } from './About/about/about.component';
 
 import { appRoutes } from './routes';
 
-const routes: Routes = [
-  {path: 'Home', component: CarouselPanelComponent},
-  {path: 'About', component: AboutComponent}
-]
+// const routes: Routes = [
+//   {path: 'Home', component: CarouselPanelComponent,KnowMithilaComponent},
+//   {path: 'About', component: AboutComponent}
+// ]
 import {KnowMithilaPaintingComponent} from './home/know-mithila-painting/know-mithila-painting.component';
+import { HomeComponentComponent } from './home/home-component/home-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {KnowMithilaPaintingComponent} from './home/know-mithila-painting/know-mi
     CarouselPanelComponent,
     FooterComponent,
     AboutComponent,
-    KnowMithilaPaintingComponent
+    KnowMithilaPaintingComponent,
+    HomeComponentComponent
   ],
   imports: [
     BrowserModule,
