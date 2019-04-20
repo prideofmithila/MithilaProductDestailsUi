@@ -13,13 +13,15 @@ const routes: Routes = [
   {path: 'Home', component: CarouselPanelComponent},
   {path: 'About', component: AboutComponent}
 ]
+import {KnowMithilaPaintingComponent} from './home/know-mithila-painting/know-mithila-painting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselPanelComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    KnowMithilaPaintingComponent
   ],
   imports: [
     BrowserModule,
