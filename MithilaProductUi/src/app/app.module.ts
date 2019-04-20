@@ -7,6 +7,8 @@ import { CarouselPanelComponent } from './home/carousel-panel/carousel-panel.com
 import { FooterComponent } from './home/footer/footer.component';
 import { AboutComponent } from './About/about/about.component';
 
+import { appRoutes } from './routes';
+
 const routes: Routes = [
   {path: 'Home', component: CarouselPanelComponent},
   {path: 'About', component: AboutComponent}
@@ -21,7 +23,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
