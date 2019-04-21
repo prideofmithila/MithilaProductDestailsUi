@@ -20,6 +20,9 @@ import { ProductListComponent } from './shop/product-list/product-list.component
 import { ProductFilterComponent } from './shop/product-filter/product-filter.component';
 import { ProductHomeComponent } from './shop/product-home/product-home.component';
 import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.component';
+import { FeaturedProductComponent } from './home/featured-product/featured-product.component';
+import { ContactUsComponent } from './home/contact-us/contact-us.component';
+import { SubscribeComponent } from './home/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.com
     ProductListComponent,
     ProductFilterComponent,
     ProductHomeComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    FeaturedProductComponent,
+    ContactUsComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,

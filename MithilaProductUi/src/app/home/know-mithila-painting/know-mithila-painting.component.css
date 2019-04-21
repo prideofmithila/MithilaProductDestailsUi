@@ -1,40 +1,19 @@
-.centre {
-    text-align: center;
-    margin-bottom: 0px;
-    align-self: center;
-    
-    
-  }
-
-  .fa {
-    padding: 90px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 100px;
-    background: #55ACEE;
-    color: white;
-    text-align: center;
-    
-  }
-
-  .gd{
-      margin-bottom: 20px;
-  }
-
-  .big{
-      background-image: url('../../../assets/DSCN1239.jpg');
-      background-repeat: no-repeat;
-      background-size: 357px;
-      background-position: 100%;
-      
-    background-position-x: 47%;
-    background-position-y: 35%;
-  }
-
-  .screen1-inner {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
 }
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+      
