@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+}
+
+.bkimg{
+    background-image: url('/../assets/103966-OM4NFT-19.jpg');
+    background-size: contain;
+    background-repeat: round;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="txtCtr"] {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
