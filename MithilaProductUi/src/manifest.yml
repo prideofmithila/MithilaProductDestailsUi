@@ -1,0 +1,5 @@
+applications:
+- name : MithilaUi
+  memory : 512M
+  instances : 1
+  buildpack : staticfile_buildpack
