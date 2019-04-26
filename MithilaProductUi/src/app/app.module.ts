@@ -47,7 +47,7 @@ import { SubscribeComponent } from './home/subscribe/subscribe.component';
   ],
   providers: [
     ProductsService,
-    {provide:LocationStrategy, useClass:HashLocationStrategy}
+    //{provide:LocationStrategy, useClass:HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })
