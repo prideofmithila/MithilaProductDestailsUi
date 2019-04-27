@@ -9,7 +9,6 @@ import { AboutComponent } from './About/about/about.component';
 
 import { appRoutes } from './routes';
 import {ProductsService} from './Services/products.service';
-import {HashLocationStrategy, LocationStrategy} from '@angular/common'
 
 // const routes: Routes = [
 //   {path: 'Home', component: CarouselPanelComponent,KnowMithilaComponent},
@@ -47,10 +46,7 @@ import { ProductSortingComponent } from './shop/product-sorting/product-sorting.
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [
-    ProductsService,
-    //{provide:LocationStrategy, useClass:HashLocationStrategy}
-  ],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
