@@ -1,8 +1,13 @@
 <div class="container">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" style="background-color:#272424!important; margin-bottom: 5%;">
-        <a class="navbar-brand" href="#">PrideOfMithila</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <a class="navbar-brand logo-font" href="#">PrideOfMithila</a>
+        <button class="navbar-toggler order-first" type="button" data-toggle="collapse" 
+        data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa" style="font-size:24px">&#xf07a;</i>
+            <span class='badge badge-warning' id='lblCartCount'>{{addedProduct}}</span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">

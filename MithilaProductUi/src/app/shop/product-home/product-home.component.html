@@ -1,8 +1,21 @@
-<div class="row" style="margin-top: 7%;">
-  <div class="col-md-3 col-sm-3">
-    <app-product-filter></app-product-filter>
-  </div>
-  <div class="col-md-9 col-sm-9">
-      <app-product-list></app-product-list>
-    </div>
+<div class="container-fluid" style="margin-top: 5%;">
+    <div class="row" style="margin-top: 7%;">
+        <div class="col-md-3 col-sm-3 largeScreen">
+          <app-product-filter></app-product-filter>
+        </div>
+        <div class="col-md-9 col-sm-9 largeScreen">
+          <app-product-sorting></app-product-sorting>  
+          <app-product-list></app-product-list>
+          </div>
+      
+          <!-- <div class="smallScreen col-md-6 col-sm-6 filter-sort">
+            <app-product-filter></app-product-filter>
+          </div> -->
+          <div class="smallScreen  filter-sort" style="margin-top: 5%">
+              <app-product-sorting></app-product-sorting>
+          </div>
+          <div class="smallScreen">
+              <app-product-list></app-product-list>
+            </div>
+      </div>
 </div>
