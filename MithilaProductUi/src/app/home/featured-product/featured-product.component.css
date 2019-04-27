@@ -1,3 +1,12 @@
 .bkgImg{
     background-image: url('/../assets//MP1.jpg');
 }
+
+.splitHalf{
+    width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    [class*="splitHalf"] {
+        width: 100%;
+    }
+  }

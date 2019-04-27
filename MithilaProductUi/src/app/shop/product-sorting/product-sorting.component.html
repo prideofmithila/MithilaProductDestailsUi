@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="largeScreen" style="background-color: beige;">
+    <span>Sort By</span>
+    <div class="hor">Popularity</div>
+    <div class="hor">Price -- Low to High</div>
+    <div class="hor">Price -- High to Low</div>
+    <div class="hor">Most Recent</div>
+  </div>
+  <div class="smallScreen ">
+    <div id="accordion">  
+      <div class="card">
+        <div class="row">
+            <div class="card-header" id="sortBy" style="width: 50%; border-right: solid">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" 
+                  data-target="#collapsesortBy" aria-expanded="false" 
+                  aria-controls="collapsesortBy" (click)="setData()" style="margin-left: auto; margin-right: auto">
+                    Sort By
+                  </button>
+                </h5>
+              </div>
+              <div class="card-header" id="sortBy" style="width: 50%">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" 
+                    data-target="#collapsesortBy" aria-expanded="false" 
+                    aria-controls="collapsesortBy" (click)="setData()">
+                      Filter
+                    </button>
+                  </h5>
+                </div>
+        </div>
+        <div id="collapsesortBy" class="collapse" aria-labelledby="sortBy" data-parent="#accordion">
+          <div class="card-body">
+            Either filter or sorting options will come here based upon selection
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
