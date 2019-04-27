@@ -1,12 +1,31 @@
-<div class="container">
-  <div style="background-color: beige;">
-    <span>Sort By</span>
-    <div class="hor">Popularity</div>
-    <div class="hor">Price -- Low to High</div>
-    <div class="hor">Price -- High to Low</div>
-    <div class="hor">Most Recent</div>
-  </div>
-  <div style="background-color: beige; margin-top: 0.5%;">
-    
+<div class="container-fluid">
+<div class="container" style="background-color: whitesmoke; margin-top: 0.5%; margin-bottom: 0.5%;">
+    <div class="row" style=" padding : 0.5% 0.5% 0.5% 0.5%;">
+      <div *ngFor = "let item of items" class=" col-xs-6 col-sm-6 col-md-4 product splitHalf" >
+        <a href="#">
+          <div>
+            <img class="d-block mx-auto img-fluid" src="//placehold.it/800x400"/>
+          </div>
+        </a>
+        <strong>{{item.name}}</strong>
+        <p style="font-style: italic;"><i class="fa fa-rupee"></i>{{item.price}}</p>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+    <nav aria-label="...">
+        <ul class="pagination justify-content-center pagination-sm">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
   </div>
 </div>

@@ -24,6 +24,7 @@ import { NavigationBarComponent } from './home/navigation-bar/navigation-bar.com
 import { FeaturedProductComponent } from './home/featured-product/featured-product.component';
 import { ContactUsComponent } from './home/contact-us/contact-us.component';
 import { SubscribeComponent } from './home/subscribe/subscribe.component';
+import { ProductSortingComponent } from './shop/product-sorting/product-sorting.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { SubscribeComponent } from './home/subscribe/subscribe.component';
     NavigationBarComponent,
     FeaturedProductComponent,
     ContactUsComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    ProductSortingComponent
   ],
   imports: [
     BrowserModule,

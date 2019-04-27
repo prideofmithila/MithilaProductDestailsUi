@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationBarComponent implements OnInit {
 
+  addedProduct = 0;
   constructor() { }
 
   ngOnInit() {
